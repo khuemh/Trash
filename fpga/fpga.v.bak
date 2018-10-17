@@ -1,5 +1,0 @@
-module fpga(SW, HEX0, HEX1, HEX2, HEX3);
-	input [2:0] SW;
-	output [0:6] HEX0, HEX1, HEX2, HEX3;
-	decoder led (SW[2:0], HEX0, HEX1, HEX2, HEX3);
-endmodule
