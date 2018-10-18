@@ -39,6 +39,9 @@ $ tar -zxvf opencv-3.x.x.tar.gz # extract opencv tar file
 $ tar -zxvf opencv_contrib-3.x.x.tar.gz #extract opencv_contrib tar file
 ```
 - Rename extracted files to *opencv* and *opencv_contrib*
+```bash
+$ mv opencv-3.x.x opencv && mv opencv_contrib-3.x.x opencv_contrib
+```
 - Move *opencv* and *opencv_contrib* to /opt directory
 ```bash
 $ sudo mv opencv opencv_contrib /opt
