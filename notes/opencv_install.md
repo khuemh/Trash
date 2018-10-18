@@ -32,12 +32,13 @@ $ sudo apt-get install libjpeg-dev libpng-dev libtiff5-dev libjasper-dev libdc13
 
     - [x] [OpenCV-Contrib](https://github.com/opencv/opencv_contrib/releases)
 
-- Rename them to *opencv.tar.gz* and *opencv_contrib.tar.gz* and Extract both file in current folder
+- Extract both file in current folder
 ```bash
-$ tar -zxvf opencv.tar.gz # extract opencv tar file
+$ tar -zxvf opencv-3.x.x.tar.gz # extract opencv tar file
 
-$ tar -zxvf opencv_contrib.tar.gz #extract opencv_contrib tar file
+$ tar -zxvf opencv_contrib-3.x.x.tar.gz #extract opencv_contrib tar file
 ```
+- Rename extracted files to *opencv* and *opencv_contrib*
 - Move *opencv* and *opencv_contrib* to /opt directory
 ```bash
 $ sudo mv opencv opencv_contrib /opt
