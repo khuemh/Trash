@@ -58,6 +58,6 @@ print('Hello world!')
 
 ## Images
 
-![Github Logo](/download.png)
+![Github Logo](/gitlogo.jpg)
 
 
