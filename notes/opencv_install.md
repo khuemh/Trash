@@ -32,7 +32,7 @@ $ sudo apt-get install libjpeg-dev libpng-dev libtiff5-dev libjasper-dev libdc13
 
     - [x] [OpenCV-Contrib](https://github.com/opencv/opencv_contrib/releases)
 
-- Extract both file in current folder
+- Extract both files in current folder
 ```bash
 $ tar -zxvf opencv-3.x.x.tar.gz # extract opencv tar file
 
@@ -77,7 +77,7 @@ Check if OpenCV is installed
 ```bash
 $ pkg-config --modversion opencv
 ```
-You will get this if it was installed.
+You will get this if it was installed successfully.
 ```bash
 3.x.x
 ```
