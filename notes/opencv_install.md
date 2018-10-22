@@ -7,7 +7,7 @@ Ubuntu 16.04 LTS 64bit
 
 ---
 
-### 1. Updating Ubuntu
+### 1. Update Ubuntu
 ** Run following commands step by step
 ``` bash
 $ sudo apt-get update
